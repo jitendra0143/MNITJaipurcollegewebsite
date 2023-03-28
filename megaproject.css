@@ -497,14 +497,23 @@ h3{
     position: relative;
     
 }
-@media(max-width:700){
+@media(max-width:700px){
     .abt div{
         display: block;
         flex-basis: 100%;
     }
 }
+
 .copyright{
     text-align: center;
     padding-bottom: 20px;
     padding-top: 10px;
 }
+
+
+@media(max-width:700px){
+    .detail{
+        flex-direction: column;
+        flex-basis: 100%;
+        
+    }
