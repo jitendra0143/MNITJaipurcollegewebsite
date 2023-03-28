@@ -502,6 +502,13 @@ h3{
            flex-direction: column;
         flex-basis: 100%;
     }
+    .abt-right img{
+    
+    width:100%;
+    border-radius: 10px;
+    margin-top: 5px;
+   
+}
 
 
 .copyright{
