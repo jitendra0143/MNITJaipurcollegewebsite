@@ -498,8 +498,8 @@ h3{
     
 }
 @media(max-width:700px){
-    .abt div{
-        display: block;
+    .abt{
+        flex-direction:column;
         flex-basis: 100%;
     }
 }
