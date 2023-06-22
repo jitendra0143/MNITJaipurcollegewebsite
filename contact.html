@@ -24,18 +24,34 @@
 
             <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="megaproject.html">HOME</a></li>
                 <li><a href="./about.html">ABLOUT</a></li>
                 <li><a href="https://mnit.ac.in/">BLOG</a></li>
                 <li><a href="./contact.html">CONTACT</a></li>
                 <li><a href="https://maps.app.goo.gl/dvC1dG6rrkPartoF9">MAP</a></li>
             </ul>
         </div>
-        </nav>
-        
-            <h1>Contact Us </h1>
-        
+
         <i class="fa-solid fa-bars" onclick="showMenu()" ></i>
+        </nav>
+
+
+        
+<!-- java script fkor toggle menu -->
+        <script>
+       
+            var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right="0%";
+         }
+         function hideMenu(){
+             navLinks.style.right="-140px"
+         }
+        </script> 
+        
+            <h1 class="jeet">Contact Us </h1>
+        
+        
     
     
 
@@ -47,15 +63,11 @@
 
   
     <section class="cont">
-        <h4>location on map</h4>
-    <div class="location">
-       
-        
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.2444865159573!2d75.80820267512472!3d26.863972376676212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db66fe2879c7f%3A0xdfc843bf9b6f869a!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkqOClh-CktuCkqOCksiDgpIfgpKjgpY3gpLjgpY3gpJ_gpL_gpJ_gpY3gpK_gpYLgpJ8g4KSR4KSr4KS8IOCkn-Clh-CkleCljeCkqOCli-CksuClieCknOClgCDgpJzgpK_gpKrgpYHgpLA!5e0!3m2!1shi!2sin!4v1678995112751!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        
-
-    </div>
+        <h4>Fill Your Information</h4>
+        <br>
+        <hr color="#7f00ff">
+        <br>
+   
 
 
 <div class="detail">
@@ -93,10 +105,10 @@
     <div class="detail-right">
         <form action="">
             
-            <input type="name" placeholder="Enter Your Name" required>
+            <input  type="name" placeholder="Enter Your Name" required >
             <input type="email" placeholder="Enter email address"required>
             <input type="text" placeholder="Enter your subject"required>
-            <textarea name="address" id="" cols="" rows="5" placeholder="write message..."></textarea>
+            <textarea name="address" id="" cols="" rows="5" placeholder="write message..." ></textarea>
 
            <button type="submit" class="hero-btn red-btn">Send message</button>
         
@@ -105,6 +117,17 @@
         </form>
 
     </div>
+</div>
+<br>
+
+<h4 >location on map</h4>
+<div class="location">
+   
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.2444865159573!2d75.80820267512472!3d26.863972376676212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db66fe2879c7f%3A0xdfc843bf9b6f869a!2z4KSu4KS-4KSy4KS14KWA4KSvIOCkqOClh-CktuCkqOCksiDgpIfgpKjgpY3gpLjgpY3gpJ_gpL_gpJ_gpY3gpK_gpYLgpJ8g4KSR4KSr4KS8IOCkn-Clh-CkleCljeCkqOCli-CksuClieCknOClgCDgpJzgpK_gpKrgpYHgpLA!5e0!3m2!1shi!2sin!4v1678995112751!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    
+
 </div>
 </section>
 
