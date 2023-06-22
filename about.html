@@ -23,18 +23,34 @@
 
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="megaproject.html">HOME</a></li>
                     <li><a href="./about.html">ABLOUT</a></li>
                     <li><a href="https://mnit.ac.in/">BLOG</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
                     <li><a href="https://maps.app.goo.gl/dvC1dG6rrkPartoF9">MAP</a></li>
                 </ul>
             </div>
-            </nav>
-            
-                <h1>About Us </h1>
-            
+
             <i class="fa-solid fa-bars" onclick="showMenu()" ></i>
+            </nav>
+
+            
+<!-- java script fkor toggle menu -->
+
+            <script>
+       
+                var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right="0%";
+             }
+             function hideMenu(){
+                 navLinks.style.right="-140px"
+             }
+            </script>    
+            
+                <h1 class="jeet">About Us </h1>
+            
+           
         
         
    
@@ -47,14 +63,21 @@
    <section class="about-us">
     <div class="abt">
         <div class="abt-left">
-            <h1>we are one the top National Institute of Technology</h1>
-            <p>"The college was established in 1963 with the name as Malaviya Regional Engineering College, Jaipur as a joint venture of the Government of India and the Government of Rajasthan, Subsequently; on June 26, 2002 the college has been given the status of National Institute of Technology and on 15 August 2007, Proclaimed Institute of National Importance through Act of Parliament. The Institute is fully funded by Ministry of Human Resource Development (MHRD), Government of India. More than 12,000 students have already been graduated since its establishment.
-                Further, the MNIT Jaipur average package for UG and PG courses stood at INR 12.43 LPA and INR 9.37 LPA, respectively. MNIT Jaipur Placements ..
+            <h1>we are one the top National Institute of Technology</h1> <br>
+            <hr color="#7f00ff">
+            <p>"The college was established in 1963 with the name as Malaviya Regional Engineering College, Jaipur as a joint venture of the Government of India and the Government of Rajasthan, Subsequently; on June 26, 2002 the college
             </p>
         </div>
 
         <div class="abt-right">
-            <img src="./jeetphoto.jpg" alt="photo">
+            
+
+            <figure class="card">
+                <figcaption>
+                    <img src="./jeetphoto.jpg" alt="photo">
+                </figcaption>
+                </figure>
+
             <h5>JITENDRA NAGAR</h5>
         </div>
     </div>
@@ -95,6 +118,10 @@
 
    
 </footer>
-    
+
+
 </body>
+
+
+
 </html>
