@@ -698,11 +698,16 @@ h3{
    }
     .abt h1{
                font-size: 25px;
+    }
+    
 
    .abt-left p{
     margin-top: 10px;
        font-size: 15px;
    }
+    .abt-right img{
+          width: 200px;
+    height: 250px;
    .abt-right{
     margin: auto;
    }
