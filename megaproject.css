@@ -527,6 +527,7 @@ h3{
        flex-direction: column;
         
  }
+ 
 }
 
 
@@ -694,22 +695,24 @@ h3{
    .abt-left{
     width: 80%;
     margin: auto;
-
-   }
-    .abt h1{
-               font-size: 25px;
-    }
     
+   }
+   .abt h1{
+    font-size: 25px;
+   }
 
    .abt-left p{
     margin-top: 10px;
-       font-size: 15px;
+    font-size: 15px;
+
    }
-    .abt-right img{
-          width: 200px;
-    height: 250px;
    .abt-right{
     margin: auto;
+   }
+   .abt-right img{
+    width: 200px;
+    height: 300px;
+
    }
 }
 
